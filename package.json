@@ -1,19 +1,23 @@
 {
-  "name": "backend-chat",
+  "name": "chat-websocket-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API de chat con WebSockets para Render/Railway",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "render",
+    "railway"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "socket.io": "^4.8.1"
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
   }
 }
